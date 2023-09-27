@@ -1,0 +1,24 @@
+[
+    {
+    "id" : 1,
+    "nrp" : 19310630,
+    "nama" : "Rudini Nor Habibi",
+    "jurusan" : "Teknik Informatika",
+    "gambar" : "rudini.jpg"
+    },
+    {
+    "id" : 2,
+    "nrp" : 19310631,
+    "nama" : "Agustina",
+    "jurusan" : "Manajemen Operasional",
+    "gambar" : "agustina.jpg"
+    },
+    {
+    "id" : 3,
+    "nrp" : 19310632,
+    "nama" : "Supardi",
+    "jurusan" : "Teknik Mesin",
+    "gambar" : "supardi.jpg"
+    }
+
+]
