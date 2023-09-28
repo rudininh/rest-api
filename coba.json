@@ -19,6 +19,14 @@
     "nama" : "Supardi",
     "jurusan" : "Teknik Mesin",
     "gambar" : "supardi.jpg"
+    },
+        {
+    "id" : 4,
+    "nrp" : 19310632,
+    "nama" : "Ryan",
+    "jurusan" : "Manajemen",
+    "gambar" : "ryan.jpg"
     }
+
 
 ]
