@@ -4,46 +4,54 @@
       {
         "nama": "Supreme Pizza",
         "deskripsi": "Pizza dengan berbagai macam toping seperti pepperoni, jamur, paprika, dan sausage.",
-        "harga": 12.99
+        "harga": 12.99,
+        "gambar": "https://www.example.com/images/supreme_pizza.jpg"
       },
       {
         "nama": "Hawaiian Pizza",
         "deskripsi": "Pizza dengan potongan daging ham dan potongan nanas yang segar.",
-        "harga": 11.99
+        "harga": 11.99,
+        "gambar": "https://www.example.com/images/hawaiian_pizza.jpg"
       },
       {
         "nama": "Veggie Lover's Pizza",
         "deskripsi": "Pizza vegetarian dengan berbagai macam sayuran seperti paprika, bawang, dan jamur.",
-        "harga": 10.99
+        "harga": 10.99,
+        "gambar": "https://www.example.com/images/veggie_lovers_pizza.jpg"
       }
     ],
     "pasta": [
       {
         "nama": "Spaghetti Bolognese",
         "deskripsi": "Spaghetti dengan saus daging sapi yang kaya dan lezat.",
-        "harga": 9.99
+        "harga": 9.99,
+        "gambar": "https://www.example.com/images/spaghetti_bolognese.jpg"
       },
       {
         "nama": "Fettuccine Alfredo",
         "deskripsi": "Fettuccine dengan saus keju krim yang kaya dan gurih.",
-        "harga": 8.99
+        "harga": 8.99,
+        "gambar": "https://www.example.com/images/fettuccine_alfredo.jpg"
       }
     ],
     "minuman": [
       {
         "nama": "Coca-Cola",
         "deskripsi": "Minuman ringan berkarbonasi.",
-        "harga": 2.49
+        "harga": 2.49,
+        "gambar": "https://www.example.com/images/coca_cola.jpg"
       },
       {
         "nama": "Lemonade",
         "deskripsi": "Minuman lemon segar.",
-        "harga": 2.99
+        "harga": 2.99,
+        "gambar": "https://www.example.com/images/lemonade.jpg"
       },
       {
         "nama": "Air Mineral",
         "deskripsi": "Botol air mineral 500ml.",
-        "harga": 1.49
+        "harga": 1.49,
+        "gambar": "https://www.example.com/images/mineral_water.jpg"
       }
     ]
   }
