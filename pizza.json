@@ -1,0 +1,50 @@
+{
+  "menu_pizza_hut": {
+    "pizzas": [
+      {
+        "nama": "Supreme Pizza",
+        "deskripsi": "Pizza dengan berbagai macam toping seperti pepperoni, jamur, paprika, dan sausage.",
+        "harga": 12.99
+      },
+      {
+        "nama": "Hawaiian Pizza",
+        "deskripsi": "Pizza dengan potongan daging ham dan potongan nanas yang segar.",
+        "harga": 11.99
+      },
+      {
+        "nama": "Veggie Lover's Pizza",
+        "deskripsi": "Pizza vegetarian dengan berbagai macam sayuran seperti paprika, bawang, dan jamur.",
+        "harga": 10.99
+      }
+    ],
+    "pasta": [
+      {
+        "nama": "Spaghetti Bolognese",
+        "deskripsi": "Spaghetti dengan saus daging sapi yang kaya dan lezat.",
+        "harga": 9.99
+      },
+      {
+        "nama": "Fettuccine Alfredo",
+        "deskripsi": "Fettuccine dengan saus keju krim yang kaya dan gurih.",
+        "harga": 8.99
+      }
+    ],
+    "minuman": [
+      {
+        "nama": "Coca-Cola",
+        "deskripsi": "Minuman ringan berkarbonasi.",
+        "harga": 2.49
+      },
+      {
+        "nama": "Lemonade",
+        "deskripsi": "Minuman lemon segar.",
+        "harga": 2.99
+      },
+      {
+        "nama": "Air Mineral",
+        "deskripsi": "Botol air mineral 500ml.",
+        "harga": 1.49
+      }
+    ]
+  }
+}
