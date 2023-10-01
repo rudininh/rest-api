@@ -1,23 +1,23 @@
-{
-  "menu_pizza_hut": {
-    "pizzas": [
-      {
+ {
+   "menu_pizza_hut": {
+     "pizzas": [
+       {
         "nama": "Supreme Pizza",
         "deskripsi": "Pizza dengan berbagai macam toping seperti pepperoni, jamur, paprika, dan sausage.",
         "harga": 12.99,
-        "gambar": "https://www.example.com/images/supreme_pizza.jpg"
+        "gambar": "https://umamigirl.com/wp-content/uploads/2023/04/Supreme-Pizza-Recipe-Umami-Girl-3.jpg"
       },
       {
         "nama": "Hawaiian Pizza",
         "deskripsi": "Pizza dengan potongan daging ham dan potongan nanas yang segar.",
         "harga": 11.99,
-        "gambar": "https://www.example.com/images/hawaiian_pizza.jpg"
+        "gambar": "https://www.jessicagavin.com/wp-content/uploads/2020/07/hawaiian-pizza-16-1200.jpg"
       },
       {
         "nama": "Veggie Lover's Pizza",
         "deskripsi": "Pizza vegetarian dengan berbagai macam sayuran seperti paprika, bawang, dan jamur.",
         "harga": 10.99,
-        "gambar": "https://www.example.com/images/veggie_lovers_pizza.jpg"
+        "gambar": "https://dudethatcookz.com/wp-content/uploads/2018/07/veggie_lovers_pizza-scaled.jpg"
       }
     ],
     "pasta": [
@@ -25,13 +25,13 @@
         "nama": "Spaghetti Bolognese",
         "deskripsi": "Spaghetti dengan saus daging sapi yang kaya dan lezat.",
         "harga": 9.99,
-        "gambar": "https://www.example.com/images/spaghetti_bolognese.jpg"
+        "gambar": "https://akcdn.detik.net.id/community/media/visual/2022/01/26/resep-spaghetti-bolognese_43.jpeg"
       },
       {
         "nama": "Fettuccine Alfredo",
-        "deskripsi": "Fettuccine dengan saus keju krim yang kaya dan gurih.",
-        "harga": 8.99,
-        "gambar": "https://www.example.com/images/fettuccine_alfredo.jpg"
+        "deskripsi":  "Fettuccine dengan saus keju krim yang kaya dan gurih.",
+        "harga": 8.99 ,
+        "gambar": "https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1-1200x1182.jpg"
       }
     ],
     "minuman": [
@@ -39,19 +39,19 @@
         "nama": "Coca-Cola",
         "deskripsi": "Minuman ringan berkarbonasi.",
         "harga": 2.49,
-        "gambar": "https://www.example.com/images/coca_cola.jpg"
+        "gambar": "https://www.cocacolaep.com/assets/Uploads/products/Coca-ColaZeroSugarAllProducts__FillWzEyMDAsNjMwXQ.png"
       },
       {
         "nama": "Lemonade",
         "deskripsi": "Minuman lemon segar.",
         "harga": 2.99,
-        "gambar": "https://www.example.com/images/lemonade.jpg"
+        "gambar": "https://images-gmi-pmc.edge-generalmills.com/2586d951-a46a-4091-aec6-eca3adefb409.jpg"
       },
       {
         "nama": "Air Mineral",
         "deskripsi": "Botol air mineral 500ml.",
         "harga": 1.49,
-        "gambar": "https://www.example.com/images/mineral_water.jpg"
+        "gambar": "https://cdn.hellosehat.com/2021/02/9cda496d-shutterstock_1677244489-700x467.jpg"
       }
     ]
   }
