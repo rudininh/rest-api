@@ -2,7 +2,7 @@
 $data = file_get_contents('pizza.json');
 $menu = json_decode($data ,true);
 
-$menu = $menu["menu_pizza_hut"];
+$menu = $menu["menu_pizza_hut"]["pizzas"];
 
 ?>
 
@@ -44,20 +44,26 @@ $menu = $menu["menu_pizza_hut"];
     </div>
 
     <div class="row">
+        
+    <?php foreach ($menu as $row) : ?>
+
         <div class="col-md-4">
 
-            <?php foreach ($menu as $row) : ?>
+            
             <div class="card" style="width: 18rem;">
-                <img src="https://dudethatcookz.com/wp-content/uploads/2018/07/veggie_lovers_pizza-scaled.jpg" class="card-img-top">
+                <img src="<?php echo $row["gambar"] ?>" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Veggie Lovers</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <h5>Rp. 60.000</h5>
+                        <h5 class="card-title"><?php echo $row["nama"] ?></h5>
+                        <p class="card-text"><?php echo $row["deskripsi"] ?></p>
+                        <h5>Rp. <?php echo $row["harga"] ?><</h5>
                         <a href="#" class="btn btn-primary">Pesan Sekarang</a>
                     </div>
             </div>
-            <?php endforeach; ?>
+         
         </div>
+        <?php endforeach; ?>
+
+        
     </div>
 </div>
 
