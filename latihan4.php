@@ -2,7 +2,10 @@
 $data = file_get_contents('pizza.json');
 $menu = json_decode($data ,true);
 
-$menu = $menu["menu_pizza_hut"]["pizzas"];
+$pizzas = $menu["menu_pizza_hut"]["pizzas"];
+$pasta = $menu["menu_pizza_hut"]["pasta"];
+$minuman = $menu["menu_pizza_hut"]["minuman"];
+
 
 ?>
 
@@ -44,25 +47,48 @@ $menu = $menu["menu_pizza_hut"]["pizzas"];
     </div>
 
     <div class="row">
-        
-    <?php foreach ($menu as $row) : ?>
 
+    <?php foreach ($pizzas as $row) : ?>
         <div class="col-md-4">
-
-            
             <div class="card" style="width: 18rem;">
                 <img src="<?php echo $row["gambar"] ?>" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $row["nama"] ?></h5>
                         <p class="card-text"><?php echo $row["deskripsi"] ?></p>
-                        <h5>Rp. <?php echo $row["harga"] ?><</h5>
+                        <h5>Rp. <?php echo $row["harga"] ?></h5>
                         <a href="#" class="btn btn-primary">Pesan Sekarang</a>
                     </div>
             </div>
-         
         </div>
-        <?php endforeach; ?>
+    <?php endforeach; ?>
 
+    <?php foreach ($pasta as $row) : ?>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="<?php echo $row["gambar"] ?>" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row["nama"] ?></h5>
+                        <p class="card-text"><?php echo $row["deskripsi"] ?></p>
+                        <h5>Rp. <?php echo $row["harga"] ?></h5>
+                        <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                    </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
+
+    <?php foreach ($minuman as $row) : ?>
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="<?php echo $row["gambar"] ?>" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row["nama"] ?></h5>
+                        <p class="card-text"><?php echo $row["deskripsi"] ?></p>
+                        <h5>Rp. <?php echo $row["harga"] ?></h5>
+                        <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+                    </div>
+            </div>
+        </div>
+    <?php endforeach; ?>
         
     </div>
 </div>
