@@ -1,3 +1,10 @@
+<?php 
+$data = file_get_contents('pizza.json');
+$menu = json_decode($data ,true);
+
+var_dump($menu["menu_pizza_hut"]["pizzas"][0]["nama"]);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
