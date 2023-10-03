@@ -2,7 +2,8 @@
 $data = file_get_contents('pizza.json');
 $menu = json_decode($data ,true);
 
-var_dump($menu["menu_pizza_hut"]["pizzas"][0]["nama"]);
+$menu = $menu["menu_pizza_hut"];
+
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +45,8 @@ var_dump($menu["menu_pizza_hut"]["pizzas"][0]["nama"]);
 
     <div class="row">
         <div class="col-md-4">
-        
+
+            <?php foreach ($menu as $row) : ?>
             <div class="card" style="width: 18rem;">
                 <img src="https://dudethatcookz.com/wp-content/uploads/2018/07/veggie_lovers_pizza-scaled.jpg" class="card-img-top">
                     <div class="card-body">
@@ -54,7 +56,7 @@ var_dump($menu["menu_pizza_hut"]["pizzas"][0]["nama"]);
                         <a href="#" class="btn btn-primary">Pesan Sekarang</a>
                     </div>
             </div>
-
+            <?php endforeach; ?>
         </div>
     </div>
 </div>
