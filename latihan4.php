@@ -44,7 +44,7 @@
                         <h5 class="card-title">Veggie Lovers</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <h5>Rp. 60.000</h5>
-                        <a href="#" class="btn btn-primary">Pesan ce</a>
+                        <a href="#" class="btn btn-primary">Pesan Sekarang</a>
                     </div>
             </div>
 
