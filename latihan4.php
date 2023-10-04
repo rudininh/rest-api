@@ -24,7 +24,7 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-        <img src="https://upload.wikimedia.org/wikipedia/id/thumb/d/d2/Pizza_Hut_logo.svg/381px-Pizza_Hut_logo.svg.png?20150807124832" width="120">
+        <img src="https://upload.wikimedia.org/wikipedia/id/thumb/d/d2/Pizza_Hut_logo.svg/381px-Pizza_Hut_logo.svg.png?20150807124832" height="60" width="60">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
