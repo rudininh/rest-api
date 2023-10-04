@@ -17,7 +17,7 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
-        
+        <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -46,9 +46,9 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="daftar-menu">
 
-    <?php foreach ($pizzas as $row) : ?>
+    <!-- <?php foreach ($pizzas as $row) : ?>
         <div class="col-md-4">
             <div class="card" style="width: 18rem;">
                 <img src="<?php echo $row["gambar"] ?>" class="card-img-top">
@@ -89,7 +89,7 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
             </div>
         </div>
     <?php endforeach; ?>
-        
+         -->
     </div>
 </div>
 
