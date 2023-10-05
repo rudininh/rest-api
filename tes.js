@@ -33,7 +33,10 @@ $.getJSON('pizza.json', function (data) {
     
 });
 
-$('.nav-link').on('click', function () {
-    $('.nav-link').removeClass('active');
-    $(this).addClass('active');
-});
+
+
+  $('.nav-item').click(function() {
+    console.log("asu");
+  });
+
+  $(".nav0l").click(function() { alert("hohoho"); });
