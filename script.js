@@ -18,9 +18,20 @@
 // xhr.send();
 
 $.getJSON('pizza.json', function (data) {
-        let menu = data.menu_pizza_hut.pizzas;
+        let menu = data.menu_pizza_hut.;
        
         $.each(menu, function(i, data) {
-            $('#daftar-menu').append('<div class="col-md-4"><div class="card" style="width: 18rem;"><img src="'+ data.gambar +'" class="card-img-top"><div class="card-body"><h5 class="card-title">'+ data.nama +'</h5><p class="card-text">'+ data.deskripsi +'</p><h5>Rp. '+ data.harga +'</h5><a href="#" class="btn btn-primary">Pesan Sekarang</a></div></div></div>');
+            $('#daftar-menu').append('<div class="col-md-4"><div class="card" style="width: 18rem;"><img src="'+ data.pasta.gambar +'" class="card-img-top"><div class="card-body"><h5 class="card-title">'+ data.pasta.nama +'</h5><p class="card-text">'+ data.pasta.deskripsi +'</p><h5>Rp. '+ data.pasta.harga +'</h5><a href="#" class="btn btn-primary">Pesan Sekarang</a></div></div></div>');
         });
+
+         
+        $.each(menu, function(i, data) {
+            $('#daftar-menu').append('<div class="col-md-4"><div class="card" style="width: 18rem;"><img src="'+ data.pasta.gambar +'" class="card-img-top"><div class="card-body"><h5 class="card-title">'+ data.pasta.nama +'</h5><p class="card-text">'+ data.pasta.deskripsi +'</p><h5>Rp. '+ data.pasta.harga +'</h5><a href="#" class="btn btn-primary">Pesan Sekarang</a></div></div></div>');
+        });
+
+         
+        $.each(menu, function(i, data) {
+            $('#daftar-menu').append('<div class="col-md-4"><div class="card" style="width: 18rem;"><img src="'+ data.minuman.gambar +'" class="card-img-top"><div class="card-body"><h5 class="card-title">'+ data.minuman.nama +'</h5><p class="card-text">'+ data.minuman.deskripsi +'</p><h5>Rp. '+ data.minuman.harga +'</h5><a href="#" class="btn btn-primary">Pesan Sekarang</a></div></div></div>');
+        });
+        
     });
