@@ -23,7 +23,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#" name="as">All Menu</a>
+        <a class="nav-item nav-link active" href="#">All Menu</a>
         <a class="nav-item nav-link" href="#">Pizza</a>
         <a class="nav-item nav-link" href="#">Pasta</a>
         <a class="nav-item nav-link" href="#">Minuman</a>
