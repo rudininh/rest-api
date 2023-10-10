@@ -36,7 +36,7 @@
               if(kategori == 'All Menu'){
                
                      tampilkanSemuaMenu();  
-
+                    return;
               }
 
               $.getJSON('pizza.json', function (data) {
