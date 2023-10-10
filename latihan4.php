@@ -1,13 +1,4 @@
-<?php 
-$data = file_get_contents('pizza.json');
-$menu = json_decode($data ,true);
 
-$pizzas = $menu["menu_pizza_hut"]["pizzas"];
-$pasta = $menu["menu_pizza_hut"]["pasta"];
-$minuman = $menu["menu_pizza_hut"]["minuman"];
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,8 +6,8 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script src="script.js">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
         <script src="tes.js"></script>
         <script></script>
     <title>Document</title>
@@ -32,7 +23,7 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">All Menu</a>
+        <a class="nav-item nav-link active" href="#" name="as">All Menu</a>
         <a class="nav-item nav-link" href="#">Pizza</a>
         <a class="nav-item nav-link" href="#">Pasta</a>
         <a class="nav-item nav-link" href="#">Minuman</a>

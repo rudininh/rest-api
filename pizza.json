@@ -1,6 +1,6 @@
  {
-   "menu_pizza_hut": {
-     "pizzas": [
+   
+     "pizza": [
        {
         "nama": "Supreme Pizza",
         "deskripsi": "Pizza dengan berbagai macam toping seperti pepperoni, jamur, paprika, dan sausage.",
@@ -54,5 +54,5 @@
         "gambar": "https://cdn.hellosehat.com/2021/02/9cda496d-shutterstock_1677244489-700x467.jpg"
       }
     ]
-  }
+
 }
