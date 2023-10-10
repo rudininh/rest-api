@@ -1,13 +1,4 @@
-<?php 
-$data = file_get_contents('pizza.json');
-$menu = json_decode($data ,true);
 
-$pizzas = $menu["menu_pizza_hut"]["pizzas"];
-$pasta = $menu["menu_pizza_hut"]["pasta"];
-$minuman = $menu["menu_pizza_hut"]["minuman"];
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +9,7 @@ $minuman = $menu["menu_pizza_hut"]["minuman"];
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
         <script src="tes.js"></script>
+        <script></script>
     <title>Document</title>
 </head>
 <body>
