@@ -46,8 +46,17 @@ footer p i {
 	color: salmon;
 }
 
+.ig-thumbnail {
+	widht: 100px;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+}
 
-
+.ig-thumbnail img {
+	widht: 100px;
+	
+}
 
 
 
