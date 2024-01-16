@@ -90,10 +90,19 @@
                     <p>70000 Followers.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mt-3 pb-3">
                   <div class="col">
-                    <div class="img-thumbnail">
+                    <div class="ig-thumbnail">
                       <img src="img/portfolio/1.png" alt="">
+                    </div>
+                    <div class="ig-thumbnail">
+                      <img src="img/portfolio/2.png" alt="">
+                    </div>
+                    <div class="ig-thumbnail">
+                      <img src="img/portfolio/3.png" alt="">
+                    </div>
+                    <div class="ig-thumbnail">
+                      <img src="img/portfolio/4.png" alt="">
                     </div>
                   </div>
                 </div>
