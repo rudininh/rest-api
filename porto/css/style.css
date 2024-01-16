@@ -47,14 +47,14 @@ footer p i {
 }
 
 .ig-thumbnail {
-	width: 10px;
-	height: 10px;
+	width: 100px;
+	height: 100px;
 	float: left;
 	overflow: hidden;
 }
 
 .ig-thumbnail img {
-	width: 10px;
+	width: 100px;
 	
 }
 
